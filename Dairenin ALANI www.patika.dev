@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        double pi =3.14 , alan ;
+       int r , a ;
+
+       System.out.print("Dairenin Yarı Çapı:");
+
+       Scanner input = new Scanner(System.in);
+       r = input.nextInt();
+
+       System.out.print("Dairenin Merkez Açısı:");
+        input = new Scanner(System.in);
+       a = input.nextInt();
+
+       alan = (pi*(r*r) * a) / 360;
+       System.out.print("Dairenin Alanı:" + alan);
+       
