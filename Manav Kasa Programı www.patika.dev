@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        double Armut = 2.14 , Elma = 3.67 , Domates = 1.11 , Muz =0.95 , Patlıcan = 5.00, tutar,
+                armutMiktarı, elmaMiktarı, domatesMiktarı, muzMiktarı, patlıcanMiktarı;
+
+        System.out.print("Armut:");
+        Scanner input = new Scanner(System.in);
+        armutMiktarı = input.nextDouble();
+
+        System.out.print("Elma:");
+        input= new Scanner(System.in);
+        elmaMiktarı= input.nextDouble();
+
+        System.out.print("Domates:");
+        input = new Scanner(System.in);
+        domatesMiktarı = input.nextDouble();
+
+        System.out.print("Muz");
+        input = new Scanner(System.in);
+        muzMiktarı = input.nextDouble();
+
+        System.out.print("Patlıcan:");
+        input = new Scanner(System.in);
+        patlıcanMiktarı = input.nextDouble();
+
+        tutar =((Armut*armutMiktarı) + (elmaMiktarı*Elma) + (Domates*domatesMiktarı) + (muzMiktarı*Muz) + (Patlıcan*patlıcanMiktarı));
+        System.out.print(" Toplam Tutar:" + tutar);
+
